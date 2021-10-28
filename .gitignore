@@ -5,7 +5,7 @@ yarn-debug.log*
 yarn-error.log*
 public/
 .deploy*/
-docs/.vuepress/dist/
+# docs/.vuepress/dist/
 
 # Editor directories and files
 .idea
