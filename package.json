@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "blog:github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "GH=1 npm run build && bash scripts/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjmconcept/blog.git"
+  },
+  "keywords": [],
+  "author": "concept",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xjmconcept/blog/issues"
+  },
+  "homepage": "https://github.com/xjmconcept/blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
