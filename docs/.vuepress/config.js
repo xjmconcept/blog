@@ -1,7 +1,7 @@
 module.exports = {
   title: "Concept",
   description: "A blog of a front-end engineer",
-  base: '/',
+  base: '/blog/',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
